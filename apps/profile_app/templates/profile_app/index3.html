@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes"> -->
+    <link rel="stylesheet" href="/static/profile_app/css/style002.css">
+
+
+
+    <title>Bryson McKenzie</title>
+    <script type="text/javascript" src="/static/profile_app/javascript/jquery.js"></script>
+    <script type="text/javascript" src="/static/profile_app/javascript/smoke.js"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
+    
+
+
+
+
+
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+
+        <canvas id="smoke-effect-canvas" height="100" style="width:100%;">
+            <img src="static/profile_app/images/logos/s11_comp.mov" alt="611-logo">
+        </canvas>
+
+        <img src="static/profile_app/images/logos/S11-Nov(1).png" alt="611-logo">
+
+
+        <ul class="fly-in-text hidden">
+            <li>W</li>
+            <li>E</li>
+            <li>L</li>
+            <li>C</li>
+            <li>O</li>
+            <li>M</li>
+            <li>E</li>
+        </ul>
+        <div class="layer2">
+            <div class="my-progress-bar"></div>
+        </div>
+
+    </div>
+
+    <script>
+        $('#smoke-effect-canvas').SmokeEffect({
+            color: 'black',
+            opacity: 0.4,
+            maximumVelocity: 50,
+            particleRadius: 128,
+            density: 10
+        });
+    </script>
+
+
+
+    <script type="text/javascript">
+
+        $(function () {
+            setTimeout(function () {
+                $('.fly-in-text').removeClass('hidden');
+            }, 500);
+
+        });
+    </script>
+    <script type="text/javascript" src="/static/profile_app/javascript/main.js"></script>
+    <script type="text/javascript" src="/static/profile_app/javascript/timer.js"></script>
+    <script type="text/javascript" src="/static/profile_app/javascript/plugin.js"></script>
+    <script type="text/javascript" src="/static/profile_app/javascript/script.js"></script>
+    <script type="text/javascript" src="/static/profile_app/javascript/smoke.js"></script>
+</body>
+
+</html>

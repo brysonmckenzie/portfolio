@@ -1,0 +1,367 @@
+{% extends 'profile_app/base.html' %} {% block body %} {% load staticfiles %}
+
+<div class="container-fluid">
+    <div class="row"id="top" style="font-family: Open Sans">
+        <div class=" col-sm-4 col-md-4 d-none d-sm-block " id="prof" style="width:100%; height: 50px; background: black; float:left; padding-left:30px; padding-right: 30px;">
+            <span class="marquee vcenter4" style="color:white; font-size: 8pt; text-align: center;">Technical Proficiencies - Python-Django | Ruby on Rails | Javascript | Django | MEAN
+                <span>
+        </div>
+
+
+
+        <div class="col-sm-4 d-none d-sm-block" style="width:100%; height: 50px; background: black; float:right; padding-right:30px;">
+            <h1 style="text-align: center; color: slategray">Portfolio</h1>
+        </div>
+        <div class="col-sm-4" style="background-color: black; text-align: right">
+                <a href="http://www.github.com/brysonmckenzie" target="_blank">
+                    <img style="width:50px;height:50px;" class="icons" src="{% static 'profile_app/images/logos/github.png' %}" alt="Github">
+                </a>
+                <a href="http://www.linkedin.com/in/bryson-mckenzie" target="_blank">
+                    <img style="width:50;height:50px;" class="icons" src="{% static 'profile_app/images/logos/linkedin.png' %}" alt="Linkedin">
+                </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 text-center" id="about">
+            <div class="vcenter">
+
+                <h1 style="margin-bottom: ">Bryson McKenzie</h1>
+                <img class="center mx-auto" id="profile-img" src="{% static 'profile_app/images/Bryson/profile-pic.jpg' %}" alt="">
+
+                <h2>Software Developer</h2>
+                <br>
+                <p></p>
+            </div>
+
+        </div>
+        <div class="col-sm-6 center" id="about-back">
+            <p>about me</p>
+            <p style="margin-top:30px;">
+                I am skilled software developer that wish to improve and learn what I need to succeed beyond new heights. I love learning
+                and being apart of the technology age. I am devoted and dedicated to being a programmer. In my spare time
+                when I am not coding you can find me fishing, hitting the gym, watching or exploring new things.
+            </p>
+        </div>
+    </div>
+
+    <div class="row" id="skills">
+        <div class="col-sm-12 skills-back dark">
+            <div id="skills-header">
+                <h1>Technical Skills</h1>
+            </div>
+
+            <div class="skill-box">
+                <p>Html/CSS</p>
+                <p>90%</p>
+                <div class="skill">
+                    <div class="skill-level" style="width:90%"> </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <p>Javascript</p>
+                <p>75%</p>
+                <div class="skill">
+                    <div class="skill-level" style="width:75%"> </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <p>jQuery</p>
+                <p>85%</p>
+                <div class="skill">
+                    <div class="skill-level" style="width:85%"> </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <p>Angular</p>
+                <p>70%</p>
+                <div class="skill">
+                    <div class="skill-level" style="width:70%"> </div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <p>Python</p>
+                <p>90%</p>
+                <div class="skill">
+                    <div class="skill-level" style="width:90%"> </div>
+                </div>
+            </div>
+
+
+            <div class="skill-box">
+                <p>Django</p>
+                <p>90%</p>
+                <div class="skill">
+                    <div class="skill-level" style="width:90%"> </div>
+                </div>
+            </div>
+
+
+            <div class="skill-box">
+                <p>Ruby on Rails</p>
+                <p>75%</p>
+                <div class="skill">
+                    <div class="skill-level" style="width:75%"> </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <p>MEAN</p>
+                <p>80%</p>
+                <div class="skill">
+                    <div class="skill-level" style="width:80%"> </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <p>Node.js</p>
+                <p>90%</p>
+                <div class="skill">
+                    <div class="skill-level" style="width:90%"> </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <p>ASP.NET - C#/ VB</p>
+                <p>50%</p>
+                <div class="skill">
+                    <div class="skill-level" style="width:50%"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12" id="project-back">
+            <div class="row">
+                <h1 class="col-sm-12">Projects</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 ">
+                    <div class="row">
+                        <div class="col-sm-12 projects-title">
+                            <h2>AMRP</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img class="mx-auto p-pic" src="{% static 'profile_app/images/Bryson/aetna.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-sm-12 projects-title">
+                            <h2>Harlem Dreams </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 ">
+                            <a href="http://www.harlemdreams.net">
+                                <img class="mx-auto p-pic" src="{% static 'profile_app/images/Bryson/dreams.png' %}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 ">
+                    <div class="row">
+                        <div class="col-sm-12 projects-title">
+                            <h2>Good Vibrations</h2>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-sm-12 ">
+                            <img class="mx-auto p-pic" src="{% static 'profile_app/images/Bryson/Vibrations.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="time">
+        <div id="career">
+            <div class="col-sm-12" id="main">
+                <h1>Career Timeline</h1>
+            </div>
+            <div class="row timeline">
+
+                <div class="col-sm-12 column">
+                    <div class="title">
+                        <h1 style> November 2017 </h1>
+                        <h2> Datamine Internet Marketing Solutions</h2>
+                    </div>
+                    <div class="description">
+                        <p>Contracted to fix, maintain and build websites in ASP.NET. Learned .NET and implementing skills on
+                            multiple projects and legacy work.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 column">
+                    <div class="title">
+                        <h1> December 2015 </h1>
+                        <h2> Welder/Fabricator:
+                            <br> Kentucky Trailer/Advance Mobility </h2>
+                    </div>
+
+                    <div class="description">
+                        <p>Became a certified welder. Helped fabricate and build Medical Mobility Units(mobile medical trailers)
+                            during this time. Learned valuable skills about metal fabrication, teamwork and the Industrial
+                            Industry.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 column">
+                    <div class="title">
+                        <h1> June 2014 </h1>
+                        <h2> Personal Fitness Trainer:
+                            <br>Charter Fitness </h2>
+                    </div>
+                    <div class="description">
+                        <p>Helped motivate clients to reach there goals. Gave guidance and instructions to help them towards
+                            a healthier lifestyle inside and outside the gym</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 column">
+                    <div class="title">
+                        <h1>July 2015 </h1>
+                        <h2> Security Officer:
+                            <br> Midwest Security Forces </h2>
+                    </div>
+                    <div class="description">
+                        <p> Worked security to guard and protect the customers and employees. I thought this job was awesome
+                            and worked hard to ensure the safety of others. </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 column">
+                    <div class="title">
+                        <h1> August 2014 </h1>
+                        <h2> Long Term Substitute Teacher:
+                            <br> School City of Hammond </h2>
+                    </div>
+                    <div class="description">
+                        <p> I took a long-term teaching position as a English teacher. I had a lot of fun teaching and mentoring
+                            students in order to make them better individuals all around. </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 column">
+                    <div class="title">
+                        <h1> June 2006 </h1>
+                        <h2> Professional Athlete
+                            <br> NBA G League/ European Leagues(FIBA) </h2>
+                    </div>
+                    <div class="description">
+                        <p> In 2006, I graduated from Northern Illinois University where my general focus was AUTO CAD and other
+                            computer technologies. After my college of 5 years with Northern Illinois University Basketball
+                            Club. I excelled to greater height by venturing into the world to play 8 years as a professional
+                            athlete in the US and foreign leagues. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row dark" style="padding: 50px;">
+        <div class="col-sm-12">
+
+
+            <div class="row">
+                <div class="col-sm-12" id="education">
+                    <h1>Education</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 school">
+                    Coding Dojo -
+                    <span class="city">Chicago, IL</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <img class="school-photo" src="{% static 'profile_app/images/cda.png' %}" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 study">
+                    Software Development
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 desc">
+                    <ul style="list-style: none; ">
+                        <li>MEAN (Javascript) - Python/Django - Ruby on Rails -HTML/CSS (Full Stack Development)</li>
+                        <li>
+                            Attended a fourteen week accelerated learning software development boot-camp, where I accumulated over 1,000 hours of development
+                            experience in three full-stacks. Became proficient in Python/Django, Ruby on Rails and Javascript
+                            along with MEAN. Acquired many skills to work efficiently and efficiently from with the front-end
+                            to back-end and data storage. Solved and created many algorithms in daily 1hr sessions. Worked
+                            in teams to resolve and develop applications to high standards.Attended a fourteen week accelerated
+                            learning software development boot-camp, where I accumulated over 1,000 hours of development
+                            experience in three full-stacks. Became proficient in Python/Django, Ruby on Rails and Javascript
+                            along with MEAN. Acquired many skills to work efficiently and efficiently from with the front-end
+                            to back-end and data storage. Solved and created many algorithms in daily 1hr sessions. Worked
+                            in teams to resolve and develop applications to high standards.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 school">
+                    Northern Illinois University-
+                    <span class="city">DeKalb, IL</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <img class="school-photo" src="{% static 'profile_app/images/niu.png' %}" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 study">
+                    B.A. - Degree: General Studies
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 desc">
+                    <ul>
+                        <p>Focused was in Industrial Engineering Technology (AutoCad). Attained a B.A degree in General Studies.
+                        </p>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="row contact-background">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6 col-md-6 form-group" id="contact">
+                <form class="center" action="/process" method="post">
+                    <h1 id="scontct">Contact Form</h1>
+                    <p class="thanks" style="font-size: 20pt; text-align: center; margin-bottom: 70px;">Please feel free to leave a message! Thank You for coming to my page.</p>
+                    {% csrf_token %}
+                    <input class="form-control" type="text" placeholder="Name" name="html_name">
+                    <br>
+                    <input class="form-control" type="text" placeholder="Email" name="html_email">
+                    <br>
+                    <input class="form-control" type="tel" placeholder="Phone Number" name="html_phone">
+                    <br>
+                    <textarea class="form-control" id="message" name="html_message" placeholder="Message"></textarea>
+                    <input type="submit" id="btn-config">
+
+                    <!-- <button class="" id="btn-config">Submit</button> -->
+                </form>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

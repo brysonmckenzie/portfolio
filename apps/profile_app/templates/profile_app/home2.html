@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'profile_app/css/style003.css' %}">
+    <link rel="icon" type="image/png" href="/static/images/S11.ico" />
+
+    <title>Bryson McKenzie</title>
+
+
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div id="remote-nav">
+        <div class="remote-box">
+            <table>
+                <tr>
+                    <td>
+                        <a href="" class="slide-click">top</a>
+                    </td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#skills" class="slide-click">skills</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#projects" class="slide-click">projects</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#main" class="slide-click">timeline</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#education" class="slide-click">education</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#contact" class="slide-click">contact</a>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    <div id="pagetop">
+        <h1>Bryson McKenzie</h1>
+        <h4>Software Developer</h4>
+        <div id="menu">
+            <div class="icons">
+
+                <a href="http://www.facebook.com/bryson.mckenzie.52" target="_blank">
+                    <img style="width:50px;height:50px;" class="icons" src="{% static 'profile_app/images/logos/facebook.png' %}" alt="Facebook">
+                </a>
+                <a href="http://www.github.com/brysonmckenzie" target="_blank">
+                    <img style="width:50px;height:50px;" class="icons" src="{% static 'profile_app/images/logos/github.png' %}" alt="Github">
+                </a>
+                <a href="http://www.linkedin.com/in/bryson-mckenzie" target="_blank">
+                    <img style="width:50;height:50px;" class="icons" src="{% static 'profile_app/images/logos/linkedin.png' %}" alt="Linkedin">
+                </a>
+            </div>
+            <div class="nav">
+                <ul class="nav-cat">
+
+                    <li>
+                        <a href="#skills" class="slide-click"> skills |</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="slide-click"> projects |</a>
+                    </li>
+                    <li>
+                        <a href="#main" class="slide-click"> timeline |</a>
+                    </li>
+                    <li>
+                        <a href="#education" class="slide-click"> education |</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="slide-click"> contact </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="profile-content">
+        <h1>About Me</h1>
+        <!-- <div id="quote-box">
+            <p>"once you become fearless, life become limitless"</p>
+        </div> -->
+        <div id="about">
+            <div id="sect1">
+
+            </div>
+
+            <div id="sect2">
+                <h1>about me</h1>
+                <p>
+                    I am a dedicated software developer and look to improve and learn what I need to succeed beyond new heights. Motivated grow and succeed in a great team-oriented environment. I am devoted and dedicated to whatever I put my mind to. In the spare time, my
+                    hobbies are weight training, cooking eccentric foods and watching sports.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Skills Section -->
+
+    <div id="skills-header">
+        <h1>Technical Skills</h1>
+    </div>
+    <div id="skills"></div>
+
+    <div class="skill-box">
+        <p>Html5</p>
+        <p>95%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:95%"> </div>
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <p>Javascript</p>
+        <p>70%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:70%"> </div>
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <p>jQuery</p>
+        <p>70%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:70%"> </div>
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <p>CSS</p>
+        <p>91%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:91%"> </div>
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <p>Angular 4</p>
+        <p>60%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:60%"> </div>
+        </div>
+    </div>
+    <div class="skill-box">
+        <p>Python</p>
+        <p>80%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:80%"> </div>
+        </div>
+    </div>
+
+
+    <div class="skill-box">
+        <p>Django</p>
+        <p>80%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:80%"> </div>
+        </div>
+    </div>
+
+
+    <div class="skill-box">
+        <p>Ruby on Rails</p>
+        <p>70%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:70%"> </div>
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <p>MEAN</p>
+        <p>70%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:70%"> </div>
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <p>Node.js </p>
+        <p>70%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:70%"> </div>
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <p>Express.js </p>
+        <p>70%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:77%"> </div>
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <p>ASP.Net </p>
+        <p> 60%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:60%"> </div>
+        </div>
+    </div>
+
+
+
+    <div class="skill-box">
+        <p>MongoDB</p>
+        <p>70%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:70%"> </div>
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <p>MySQl</p>
+        <p>70%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:70%"> </div>
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <p>PostgresSQL</p>
+        <p>70%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:70%"> </div>
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <p>Adobe XD</p>
+        <p>95%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:95%"> </div>
+        </div>
+
+
+    </div>
+    <div class="skill-box">
+        <p>Adobe Photoshop</p>
+        <p>60%</p>
+        <div class="skill">
+            <div class="skill-level" style="width:60%"> </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+    <!-- Projects section-->
+
+
+    <div id="projects">
+        <h1>Projects</h1>
+    </div>
+    <div class="project-content">
+        <ul>
+            <li><a href="">ABC Motor Home</a></li>
+                <div class="description">
+                    <p></p>
+                </div>
+            <li><a href="">Buddy Stubbs Harley Davidson</a></li>
+        </ul>
+    </div>
+
+
+
+    <!-- Timeline section -->
+
+    <div id="main">
+        <h1>Career Timeline</h1>
+        <!-- <p>Všetko od roku 1867 až po rok 2003. História, postupy, vanálezy...</p> -->
+    </div>
+    <div class="timeline">
+
+        <div class="column">
+            <div class="title">
+                <h1 style> March 2017 </h1>
+                <h2> Software Developer </h2>
+            </div>
+            <div class="description">
+                <p>Being a software developer is one of my best achievement so far. After several careers and past experience with computer program in my youth and college I look to grow and succeed throughout the IT field.
+                </p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="title">
+                <h1> December 2015 </h1>
+                <h2> Welder/Fabricator:
+                    <br> Kentucky Trailer/Advance Mobility </h2>
+            </div>
+
+            <div class="description">
+                <p> I became a certified welder. I helped fabricate and build Medical Mobility Units(trailers) during this time. It gave me valuable skills in my life. I did not see myself carrying out a career long-term. I found a passion online with software
+                    development and decided to change directions. </p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="title">
+                <h1> June 2014 </h1>
+                <h2> Personal Fitness Trainer:
+                    <br>Charter Fitness </h2>
+            </div>
+            <div class="description">
+                <p> Becoming a personal trainer was a great experience in my life. It was a reward to help and motivate so many of my clients to help them reach there goals. Also, I improved my sales skills and it allowed me to workout for free. </p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="title">
+                <h1>July 2015 </h1>
+                <h2> Security Officer:
+                    <br> Midwest Security Forces </h2>
+            </div>
+            <div class="description">
+                <p> Worked security to guard and protect the customers and employees. I thought this job was awesome and worked hard to ensure the safety of others. </p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="title">
+                <h1> August 2014 </h1>
+                <h2> Long Term Substitute Teacher:
+                    <br> School City of Hammond </h2>
+            </div>
+            <div class="description">
+                <p> I took a long-term teaching position as a English teacher. I had a lot of fun teaching and mentoring students in order to make them better individuals all around. </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="column">
+        <div class="title">
+            <div class="img">
+                <!-- <img src="/static/images/Bryson/bdolla.jpg" alt=""> -->
+            </div>
+            <h1> June 2006 </h1>
+            <h2> Profession Athelete:
+                <br> FIBA/NBA D Leagues </h2>
+        </div>
+        <div class="description">
+            <p> In 2006, I graduated from Northern Illinois University where my general focus was AUTO CAD and other computer technologies. After my college of 5 years with Northern Illinois University Basketball Club. I excelled to greater height by venturing
+                into the world to play 8 years as a professinal athlete in the US and foreign leagues.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div id="education">
+        <h1>Education</h1>
+    </div>
+    <div class="school">
+        <h1>Northern Illinois Universtiy -</h1>
+        <p class="t2">DeKalb,IL</p>
+        <p class="school info"></p>
+        <p class="study">B.A General Studies - </p>
+        <ul class="desc">
+            <li>Focused was in Industrial Engineering Technology (AutoCad). Attained a B.A degree in General Studies.</li>
+        </ul>
+        <br>
+        <hr width="65%">
+    </div>
+    <div class="school">
+        <h1>Coding Dojo -</h1>
+        <p class="t2">Chicago, IL</p>
+        <p class="school info"></p>
+        <p class="study">Software Development - </p>
+        <ul class="desc">
+            <li>Attended a fourteen week accelerated learning BootCamp, where I accumulated over 1,000 hours of development experience in Python, Ruby and Javascript.</li>
+        </ul>
+    </div>
+
+
+    <!-- Contact Form -->
+    <form action="/process" method="post">
+        {% csrf_token %}
+        <div id="contact">
+            <h1>Contact Form</h1>
+
+            <div id="contact-form">
+
+
+                <input type="text" placeholder="Name" name="html_name">
+                <br>
+                <input type="text" placeholder="Email" name="html_email">
+                <br>
+                <input type="tel" placeholder="Phone Number" name="html_phone">
+                <br>
+                <textarea name="html_message" placeholder="Message"></textarea>
+
+                <button>Submit</button>
+
+            </div>
+        </div>
+    </form>
+
+
+
+
+
+    <footer class="footer">
+        <ul>
+            <li><img style="width:100px;height:100px;margin-top: -48px;" src="{% static '/profile_app/images/logos/Python300-.png'%}" alt=""></li>
+
+        </ul>
+        <p class="text-muted text-center">
+
+        </p>
+
+        <p class="text-muted text-center">
+            <small> 2017 Designed by Bryson McKenzie</small>
+        </p>
+    </footer>
+
+
+    <script type="text/javascript" src="{% static 'profile_app/javascript/header.js' %}"></script>
+    <script type="text/javascript" src="{% static 'profile_app/javascript/jquery.js' %}"></script>
+    <script type="text/javascript" src="{% static 'profile_app/javascript/scroll.js' %}"></script>
+    <!-- <script type="text/javascript" src="{static 'profile_app/javascript/remote.js"></script> -->
+    <script type="text/javascript" src="{% static 'profile_app/javascript/top.js' %}"></script>
+
+
+    <script>
+        $('td a').click(function() {
+            $('a').fadeOut(2000);
+            $('a').fadeIn(1000);
+            $('a').fadeOut();
+            $('a').fadeIn();
+        })
+    </script>
+    <script>
+        if (scroll) {
+            $('remote-nav').scroll(function() {
+                $('a').slideUp
+                $('a').slideUp
+            })
+        }
+    </script>
+
+    <script src="https://a2.muscache.com/airbnb/static/libs_jquery_2x-4c61948b1a5fa686ed70f7b9bf4a18c9.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/restive.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('body').restive({
+                breakpoints: ['10000'],
+                classes: ['nb'],
+                turbo_classes: 'is_mobile=mobi,is_phone=phone,is_tablet=tablet,is_portrait=portrait,is_landscape=landscape'
+            });
+        });
+    </script>
