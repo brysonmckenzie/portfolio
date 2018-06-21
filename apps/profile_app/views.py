@@ -12,6 +12,8 @@ def index(request):
     context = {
         "message": Proficiencies
     }
+
+    
     
     return render(request, 'profile_app/index.html', context)
 

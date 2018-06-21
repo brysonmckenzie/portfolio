@@ -655,9 +655,10 @@ a:active {
 
 .skill-box {
     box-sizing: border-box;
-    width: 60%;
+    width: 100%;
     margin: 20px 0;
     margin: 0 auto;
+    padding: 0px 50px 0px 50px;
 }
 
 .skill-box p {
