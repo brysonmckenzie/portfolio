@@ -28,7 +28,7 @@
 
 
     <script src="{% static 'profile_app/javascript/navi.js' %}"></script>
-   
+
 
 </head>
 
@@ -54,75 +54,75 @@
 
 
 
-<body>
-<div class="container-fluid sticky">
-    <div class="row">
-    <nav class=" navbar navbar-expand-lg navbar-light bg-light" style="width:100%">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2" aria-controls="navbar2"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbar2">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#top">Top</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about-back">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#project-back">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#time">Timeline</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+    <body>
+        <div class="container-fluid sticky">
+            <div class="row">
+                <nav class=" navbar navbar-expand-lg navbar-light bg-light" style="width:100%">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2" aria-controls="navbar2"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbar2">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#top">Top</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-back">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#project-back">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#time">Timeline</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+        {% block body %} {% endblock %}
+
+        <footer class="footer">
+            <ul>
+                <li>
+                    <img style="width:100px;height:100px;margin-top: -48px;" src="{% static '/profile_app/images/logos/Python300-.png'%}" style="z-index: 100;"
+                        alt="">
                 </li>
             </ul>
-        </div>
+            <p class="text-muted text-center">
 
-    </nav>
-</div>
-    </div>
-    {% block body %} {% endblock %}
-
-    <footer class="footer">
-        <ul>
-            <li>
-                <img style="width:100px;height:100px;margin-top: -48px;" src="{% static '/profile_app/images/logos/Python300-.png'%}" style="z-index: 100;"
-                    alt="">
-            </li>
-        </ul>
-        <p class="text-muted text-center">
-
-        </p>
-        <p style="font-size: 12pt;">Powered by Django</p>
-        <p class="text-muted text-center">
-            <small> 2017 Designed by Bryson McKenzie</small>
-        </p>
-    </footer>
+            </p>
+            <p style="font-size: 12pt;">Powered by Django</p>
+            <p class="text-muted text-center">
+                <small> 2017 Designed by Bryson McKenzie</small>
+            </p>
+        </footer>
 
 
 
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
             }
-        }
-    </script>
+        </script>
 
-</body>
+    </body>
 
 </html>
 
@@ -262,21 +262,21 @@
 </script>
 
 <script>
-        $( ".innerContentNavigantion" ).LongPageNavigation({
-          longPageNavigationPosition: "newLongNavigation" // Give Class Name where you want to show this Navigation in Page
-      });
-        </script>
-        <script type="text/javascript">
-      
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-36251023-1']);
-        _gaq.push(['_setDomainName', 'jqueryscript.net']);
-        _gaq.push(['_trackPageview']);
-      
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-      
-      </script>
+    $(".innerContentNavigantion").LongPageNavigation({
+        longPageNavigationPosition: "newLongNavigation" // Give Class Name where you want to show this Navigation in Page
+    });
+</script>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>

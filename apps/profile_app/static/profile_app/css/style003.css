@@ -515,7 +515,7 @@ input[type=tel] {
     /* position: absolute; */
     /* left: 33%; */
     color: white;
-    width: 400px;
+    width: 100%;
     height: 100px;
     font: bold 30px arial, sans-serif;
     border-style: outset;
@@ -569,7 +569,7 @@ input[type=tel] {
 }
 
 .sticky {
-    position: sticky;
+    position: fixed;
     z-index: 100;
     top: 0;
     width: 100% !important;
