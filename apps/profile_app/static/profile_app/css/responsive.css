@@ -7,6 +7,9 @@
         right: 0;
         top: 0;
     }
+    .nav-item{
+        font-size: 30pt;
+    }
     .topnav.responsive a {
         float: none;
         display: block;
