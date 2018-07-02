@@ -64,7 +64,8 @@ body {
 
 #profile-img {
     width: 50%;
-    border: 10px double black
+    height: 50%;
+    /* border: 10px double black */
 }
 
 /* .pic1{
@@ -300,11 +301,11 @@ body {
 }
 
 .timeline .column .title h1 {
-    font-size: 80px;
+    font-size: 90px;
     color: rgb(22, 3, 39);
     font-family: serif;
     letter-spacing: 3px;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .timeline .column .title h1:before {
