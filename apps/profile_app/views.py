@@ -7,7 +7,7 @@ from models import Message
 
 def index(request):
     
-    Proficiencies = "Proficiencies - Python-Django | Ruby on Rails | Javascript | Django | MEAN "
+    Proficiencies = "Proficiencies - Python | Django | Ruby on Rails | Javascript | MEAN | Angular "
 
     context = {
         "message": Proficiencies
