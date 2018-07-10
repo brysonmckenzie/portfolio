@@ -35,7 +35,7 @@
 
         </div>
         <div class="col-sm-6 center" id="about-back">
-            <p>about me</p>
+            <!-- <p>about me</p> -->
             <p style="margin-top:30px;">
                 I am skilled software developer that wish to improve and learn what I need to succeed beyond new heights. I love learning
                 and being apart of the technology age. I am devoted and dedicated to being a programmer. In my spare time
@@ -44,8 +44,8 @@
         </div>
     </div>
 
-    <div class="row" id="skills">
-        <div class="col-sm-12 skills-back dark">
+    <div class="row dark" id="skills">
+        <div class="col-sm-12 skills-back ">
             <div id="skills-header">
                 <h1>Technical Skills</h1>
             </div>
@@ -145,9 +145,9 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12">
+                        <div class="col-sm-12" style="background-color: rgba(0,0,0,0.7);">
                             <a href="http://159.89.236.83">
-                                <img class="mx-auto p-pic" src="{% static 'profile_app/images/Bryson/aetna.png' %}" alt="">
+                                <img class="mx-auto p-pic" src="{% static 'profile_app/images/logos/logo.png' %}" alt="">
                             </a>
                         </div>
                     </div>
@@ -159,9 +159,9 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12 col-md-12">
+                        <div class="col-sm-12 col-md-12" style="background-color: rgba(0,0,0,0.7);">
                             <a href="http://www.harlemdreams.net">
-                                <img class="mx-auto p-pic" src="{% static 'profile_app/images/Bryson/dreams.png' %}" alt="">
+                                <img class="mx-auto p-pic" src="{% static 'profile_app/images/logos/logo2.png' %}" alt="">
                             </a>
                         </div>
                     </div>
@@ -173,9 +173,9 @@
                         </div>
                     </div>
                     <div class="row ">
-                        <div class="col-sm-12 ">
+                        <div class="col-sm-12 " style="background-color: rgba(0,0,0,0.7);">
                             <a href="http://206.81.7.218">
-                                <img class="mx-auto p-pic" src="{% static 'profile_app/images/Bryson/vibrations.png' %}" alt="">
+                                <img class="mx-auto p-pic" src="{% static 'profile_app/images/logos/flower_logo.png' %}" alt="">
                             </a>
                         </div>
                     </div>
@@ -192,31 +192,32 @@
 
                 <div class="col-sm-12 column">
                     <div class="title">
-                        <h1 style> Jan 2018 - Jul 2018</h1>
-                        <h2>Six Eleven Web Design</h2>
+                        <h1 style> January 2018 (Present)</h1>
+                        <h2>Web Developer (Freelance/ Contractor)
+                            <br> Six Eleven Solutions</h2>
                     </div>
                     <div class="description">
                         <p>Six Eleven Web Design is a website designing and development company providing services to enterprises
                             across the world and marketing needs.
-                            <!-- ... Our services are unique combination of user-friendly design and strong internet marketing plans. -->
 
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-12 column">
                     <div class="title">
-                        <h1 style> Nov 2017 - Jul 2018</h1>
-                        <h2> Datamine Internet Marketing Solutions (Contractor)</h2>
+                        <h1 style> November 2017</h1>
+                        <h2>Back-End Developer
+                            <br> Datamine Internet Marketing Solutions (Contractor)</h2>
                     </div>
                     <div class="description">
-                        <p>Maintain and build websites in ASP.NET. Learned .NET and implementing skills on multiple projects
-                            and legacy work.
+                        <p>Maintain and build websites in ASP.NET. Learned .NET and applied it on multiple projects and legacy
+                            work. Built and maintained the front-end of companies ASP.NET webpages
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-12 column">
                     <div class="title">
-                        <h1> Dec 2015 - Dec 2017 </h1>
+                        <h1> December 2015</h1>
                         <h2> Welder/Fabricator:
                             <br> Kentucky Trailer/Advance Mobility </h2>
                     </div>
@@ -229,7 +230,7 @@
                 </div>
                 <div class="col-sm-12 column">
                     <div class="title">
-                        <h1> Jun 2014 - Jun 2015 </h1>
+                        <h1> June 2014</h1>
                         <h2> Personal Fitness Trainer:
                             <br>Charter Fitness </h2>
                     </div>
@@ -251,7 +252,7 @@
                 </div> -->
                 <div class="col-sm-12 column">
                     <div class="title">
-                        <h1> Jun 2006 - Jun 2014 </h1>
+                        <h1> June 2006</h1>
                         <h2> Professional Athlete
                             <br> NBA G League/ European Leagues(FIBA) </h2>
                     </div>
@@ -332,33 +333,43 @@
 
         </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-sm-12">
-        <div class="row contact-background">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6 col-md-6 form-group" id="contact">
-                <form class="center" action="/process" method="post">
-                    <h1 id="scontct">Contact Form</h1>
-                    <p class="thanks" style="font-size: 20pt; text-align: center; margin-bottom: 70px;">Please feel free to leave a message! Thank You for coming to my page.</p>
-                    {% csrf_token %}
-                    <input class="form-control" type="text" placeholder="Name" name="html_name" required>
-                    <br>
-                    <input class="form-control" type="text" placeholder="Email" name="html_email" required>
-                    <br>
-                    <input class="form-control" type="tel" placeholder="Phone Number" name="html_phone" required>
-                    <br>
-                    <textarea class="form-control" id="message" name="html_message" placeholder="Message" required></textarea>
+    <div class="row contact-background">
+        <div class=" col-sm-6 form-group" id="contact">
+            <form class="center" action="/process" method="post">
+                <h1 id="scontct">Contact Form</h1>
+                <p class="thanks" style="font-size: 20pt; text-align: center; margin-bottom: 70px;">Please feel free to leave a message! Thank You for coming to my page.</p>
+                {% csrf_token %}
+                <input class="form-control" type="text" placeholder="Name" name="html_name" required>
+                <br>
+                <input class="form-control" type="text" placeholder="Email" name="html_email" required>
+                <br>
+                <input class="form-control" type="tel" placeholder="Phone Number" name="html_phone" required>
+                <br>
+                <textarea class="form-control" id="message" name="html_message" placeholder="Message" required></textarea>
 
-                    <input type="submit" id="btn-config">
+                <input type="submit" id="btn-config">
 
-                    <!-- <button class="" id="btn-config">Submit</button> -->
-                </form>
+            </form>
+        </div>
+        <div class="col-sm-6 contact-right">
+            <div class="clist" style="height:700px; width: 100%; padding:0px 0px 0px 50px; border-left: white 3px solid;">
+                <h1>Contact</h1>
+                <h4>Phone</h4>
+                <p>
+                    <a href="tel:7026083191">
+                        <i class="fa fa-phone" style="color: white;"></i>(702) 608-3191</a>
+                </p>
+                <h4>Email</h4>
+                <p>
+                    <a href="mailto:sixelevensolutions@gmail.com">
+                        <i class="fa fa-envelope" style="color: white; "></i>sixelevensolutions@gmail.com</a>
+                </p>
             </div>
-            <div class="col-sm-3"></div>
         </div>
     </div>
 </div>
+
+
 
 
 {% endblock %}

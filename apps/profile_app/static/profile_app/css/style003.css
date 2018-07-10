@@ -63,8 +63,8 @@ body {
 }
 
 #profile-img {
-    width: 50%;
-    height: 50%;
+    width: 500px;
+    /* height: 50%; */
     /* border: 10px double black */
 }
 
@@ -88,9 +88,9 @@ body {
 .dark {
     /* background-position: fixed;
     background-repeat: no-repeat; */
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
     /* background-image: url('/static/profile_app/images/background/damask.jpg'); */
-    padding: 60px 0px 100px 0px;
+    /* padding: 60px 0px 100px 0px; */
     /* opacity: 0.8; */
 }
 
@@ -235,10 +235,10 @@ body {
 #about-back>p {
     /* height: 700px; */
     width: 100%;
-    text-align: center;
+    text-align: left;
     color: #000000;
-    font-size: 15pt;
-    font-weight: 500;
+    font-size: 19pt;
+    font-weight: 900;
     opacity: .8;
     text-transform: uppercase;
     margin-top: 75px;
@@ -251,6 +251,8 @@ body {
     /* display: inline-block; */
     z-index: 1000;
 }
+
+
 
 .footer {
     position: relative;
@@ -454,9 +456,26 @@ hr {
 }
 
 .contact-background {
-    background-image: url('/static/profile_app/images/background/black-keyboard.jpeg');
+    background-color: rgba(0, 0, 0, 0.8);
     background-size: cover;
     background-position: top;
+    display: block;
+    position: relative;
+    z-index: 0;
+    
+    
+}
+.contact-background::after{
+    content: '';
+    background-image: url('/static/profile_app/images/background/black-keyboard.jpeg');
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1
+
 }
 
 #contact {
@@ -472,6 +491,7 @@ hr {
     padding: 80px;
     margin-bottom: auto;
     text-align: center;
+    /* border-right: 5px solid white */
 }
 
 .school-photo {
@@ -549,7 +569,8 @@ input[type=tel] {
 }
 
 #skills {
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 50px;
 }
 
 #skills-header>h1 {
@@ -752,12 +773,12 @@ table td {
 }
 
 #project-back {
-    /* background-image: url('/static/profile_app/images/background/back2.jpeg'); */
+    background-image: url(/static/profile_app/images/background/back2.jpeg);
     padding: 0px 0px 50px 0px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: absolute;
-    /* top: 40px; */
+    top: 40px;
     text-align: center;
     padding: 50px 0px 50px;
     color: blue;
@@ -767,28 +788,32 @@ table td {
     font-weight: normal;
     /* opacity: .8; */
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: -40px;
 }
+
+
 
 #project-back h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: .7em;
-    font-size: 18pt;
+    font-size: 26pt;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
-    background-color: rgba(54, 78, 75, 0.7);
+    /* background-color: rgba(54, 78, 75, 0.7); */
     margin-bottom: 50px;
 }
 
 #project-back h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: .7em;
-    font-size: 10pt;
+    font-size: 16pt;
     font-weight: bold;
     text-transform: uppercase;
-    color: white;
-    background-color: rgba(54, 78, 75, 0.7)
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    padding:30px;
 }
 
 .project-box {
@@ -796,10 +821,56 @@ table td {
     width: 400px;
     height: 500px;
 }
+.contact-right{
+    color: white;
+    padding:75px 25px 25px 25px;
+
+}
+.contact-right h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: .7em;
+    font-size: 22pt;
+    font-weight: normal;
+    /* opacity: .8; */
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    border-bottom: white 3px solid;
+}
+.contact-right h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: .7em;
+    font-size: 20pt;
+    font-weight: normal;
+    /* opacity: .8; */
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.contact-right p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: .7em;
+    font-size: 12pt;
+    font-weight: normal;
+    /* opacity: .8; */
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.contact-right a:link{
+    color:white;
+}
+.contact-right a:visited{
+    color:white;
+}
+.contact-right a:hover{
+    color:white;
+    text-decoration: none;
+}
+/* .contact a:link{
+    color:white
+} */
 
 .p-pic {
-    width: 150px;
-    height: 200px;
+    /* width: 150px; */
+    height: 150px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
