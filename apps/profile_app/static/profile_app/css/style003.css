@@ -215,7 +215,8 @@ body {
     text-align: center;
     top: 0vh;
     color: #ffffff;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
     letter-spacing: .7em;
     font-size: 26pt;
     font-weight: normal;
@@ -244,15 +245,14 @@ body {
     margin-top: 75px;
     padding-right: 25px;
     padding-left: 50px;
-    font-family: Open sans;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
     /* background: black; */
     /* opacity: 0.4; */
     /* margin-bottom: -35px; */
     /* display: inline-block; */
     z-index: 1000;
 }
-
-
 
 .footer {
     position: relative;
@@ -462,10 +462,9 @@ hr {
     display: block;
     position: relative;
     z-index: 0;
-    
-    
 }
-.contact-background::after{
+
+.contact-background::after {
     content: '';
     background-image: url('/static/profile_app/images/background/black-keyboard.jpeg');
     display: block;
@@ -475,7 +474,6 @@ hr {
     right: 0;
     left: 0;
     z-index: -1
-
 }
 
 #contact {
@@ -756,17 +754,16 @@ table td {
     opacity: 0.5;
 }
 
-.marquee {
-  
-}
+.marquee {}
 
 .vcenter {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
+
 .vcenter4 {
-    display:block;
+    display: block;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -791,8 +788,6 @@ table td {
     margin-top: -40px;
 }
 
-
-
 #project-back h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: .7em;
@@ -813,7 +808,7 @@ table td {
     color: black;
     background-color: rgba(255, 255, 255, 0.9);
     display: inline-block;
-    padding:30px;
+    padding: 30px;
 }
 
 .project-box {
@@ -821,11 +816,12 @@ table td {
     width: 400px;
     height: 500px;
 }
-.contact-right{
-    color: white;
-    padding:75px 25px 25px 25px;
 
+.contact-right {
+    color: white;
+    padding: 75px 50px 25px 25px;
 }
+
 .contact-right h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: .7em;
@@ -836,7 +832,8 @@ table td {
     margin-bottom: 50px;
     border-bottom: white 3px solid;
 }
-.contact-right h4{
+
+.contact-right h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: .7em;
     font-size: 20pt;
@@ -845,7 +842,8 @@ table td {
     text-transform: uppercase;
     margin-bottom: 25px;
 }
-.contact-right p{
+
+.contact-right p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: .7em;
     font-size: 12pt;
@@ -854,16 +852,20 @@ table td {
     text-transform: uppercase;
     margin-bottom: 25px;
 }
-.contact-right a:link{
-    color:white;
+
+.contact-right a:link {
+    color: white;
 }
-.contact-right a:visited{
-    color:white;
+
+.contact-right a:visited {
+    color: white;
 }
-.contact-right a:hover{
-    color:white;
+
+.contact-right a:hover {
+    color: white;
     text-decoration: none;
 }
+
 /* .contact a:link{
     color:white
 } */
@@ -874,15 +876,40 @@ table td {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.nav-item{
+
+.nav-item {
     font-size: 20pt;
 }
-html{
+
+html {
     overflow-x: hidden;
+}
+
+.clist {
+    height: 700px;
+    width: 100%;
+    padding: 0px 0px 0px 50px;
+    border-left: white 3px solid;
 }
 
 @media (max-device-width: 1450px) {
     a {
         font-size: 0.4em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .clist {
+        border-left: unset;
+    }
+    .contact-right p{
+        font-size: 8pt;
+    }
+    .contact-right h1{
+        font-size: 22pt;
+        text-align: center;
+    }
+    .contact-right h2{
+        font-size: 12pt;
     }
 }

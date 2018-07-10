@@ -23,9 +23,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
 
-
     <!-- marqee -->
 
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="{% static 'profile_app/javascript/navi.js' %}"></script>
 
@@ -49,12 +50,23 @@
                     </a>
                 </div> -->
 
+<style>
+    .hov:hover{
+        color:lime;
+
+    }
+    .hov{
+        font-size: 24pt;
+    }
+    .nav-item:active{
+        color: steelblue;
+    }
+</style>
 
 
 
 
-
-    <body>
+    <body id="top">
         <div class="container-fluid sticky">
             <div class="row">
                 <nav class=" navbar navbar-expand-lg navbar-light bg-light" style="width:100%">
@@ -64,17 +76,15 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbar2">
                         <ul class="navbar-nav">
+                        
                             <li class="nav-item">
-                                <a class="nav-link" href="#top">Top</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about-back">About</a>
+                                <a class="nav-link" href="#top"><i class="hov far fa-arrow-alt-circle-up"></i></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#skills">Skills</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#project-back">Projects</a>
+                                <a class="nav-link" href="#projects">Projects</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#time">Timeline</a>

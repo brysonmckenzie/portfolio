@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    var headerHeight = $('#pagetop').outerHeight();
+    var headerHeight = $('#pagetop').outerHeight()  ;
     console.log(headerHeight);
 
     // Get the header height
