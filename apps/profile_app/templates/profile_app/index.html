@@ -23,7 +23,7 @@
     </div>
     <div class="row">
         <div class="col-sm-6 text-center" id="about">
-            
+
             <div class="vcenter">
 
                 <h1 style="margin-bottom: ">Bryson McKenzie</h1>
@@ -35,12 +35,12 @@
             </div>
 
         </div>
-        <div class="col-sm-6 center" id="about-back"style="position: relative; top: 25%;">
+        <div class="col-sm-6 center" id="about-back" style="position: relative; top: 25%;">
             <!-- <p>about me</p> -->
-            <p >
-                Full Stack Developer that wish to improve and learn beyond new heights. I love learning new technology
-                and being apart of the technology age. In my spare time
-                when I am not coding you can find me fishing, hitting the gym, watching or exploring new things.
+            <p>
+                Full Stack Developer that wish to improve and learn beyond new heights. I love learning new technology and being apart of
+                the technology age. In my spare time when I am not coding you can find me fishing, hitting the gym, watching
+                or exploring new things.
             </p>
         </div>
     </div>
@@ -136,7 +136,7 @@
     <div class="row" id="projects">
         <div class="col-sm-12" id="project-back">
             <div class="row">
-                <h1 class="col-sm-12">Projects</h1>
+                <h1 style="margin-top:  30px;" class="col-sm-12">Projects</h1>
             </div>
             <div class="row">
                 <div class="col-sm-4 ">
@@ -194,7 +194,7 @@
                 <div class="col-sm-12 column">
                     <div class="title">
                         <h1 style> January 2018 (Present)</h1>
-                        <h2>Web Developer (Freelance/ Contractor)
+                        <h2>Web Developer (Freelance/ Contractor):
                             <br> Six Eleven Solutions</h2>
                     </div>
                     <div class="description">
@@ -207,7 +207,7 @@
                 <div class="col-sm-12 column">
                     <div class="title">
                         <h1 style> November 2017</h1>
-                        <h2>Back-End Developer
+                        <h2>Back-End Developer:
                             <br> Datamine Internet Marketing Solutions (Contractor)</h2>
                     </div>
                     <div class="description">
@@ -335,36 +335,43 @@
         </div>
     </div>
     <div class="row contact-background">
-        <div class=" col-sm-6 form-group" id="contact">
-            <form class="center" action="/process" method="post">
-                <h1 id="scontct">Contact Form</h1>
-                <p class="thanks" style="font-size: 20pt; text-align: center; margin-bottom: 70px;">Please feel free to leave a message! Thank You for coming to my page.</p>
-                {% csrf_token %}
-                <input class="form-control" type="text" placeholder="Name" name="html_name" required>
-                <br>
-                <input class="form-control" type="text" placeholder="Email" name="html_email" required>
-                <br>
-                <input class="form-control" type="tel" placeholder="Phone Number" name="html_phone" required>
-                <br>
-                <textarea class="form-control" id="message" name="html_message" placeholder="Message" required></textarea>
+        <div class="col-sm-12">
+            <div class="row">
+                <h1 id="scontct">Contact</h1>
+            </div>
+            <div class="row">
+                <div class=" col-sm-6 form-group" id="contact">
+                    <form class="center" action="/process" method="post">
+                        <!-- <h1 id="scontct">Contact Form</h1> -->
+                        <p class="thanks" style="font-size: 20pt; text-align: center; margin-bottom: 70px;">Please feel free to leave a message! Thank You for coming to my page.</p>
+                        {% csrf_token %}
+                        <input class="form-control" type="text" placeholder="Name" name="html_name" required>
+                        <br>
+                        <input class="form-control" type="text" placeholder="Email" name="html_email" required>
+                        <br>
+                        <input class="form-control" type="tel" placeholder="Phone Number" name="html_phone" required>
+                        <br>
+                        <textarea class="form-control" id="message" name="html_message" placeholder="Message" required></textarea>
 
-                <input type="submit" id="btn-config">
+                        <input type="submit" id="btn-config">
 
-            </form>
-        </div>
-        <div class="col-sm-6 contact-right">
-            <div class="clist">
-                <h1>Contact</h1>
-                <h4>Phone</h4>
-                <p>
-                    <a href="tel:7026083191">
-                        <i class="fa fa-phone" style="color: white;"></i>(702) 608-3191</a>
-                </p>
-                <h4>Email</h4>
-                <p>
-                    <a href="mailto:sixelevensolutions@gmail.com">
-                        <i class="fa fa-envelope" style="color: white; "></i>sixelevensolutions@gmail.com</a>
-                </p>
+                    </form>
+                </div>
+                <div class="col-sm-6 contact-right">
+                    <div class="clist">
+                        <!-- <h1>Contact Information</h1> -->
+                        <h4>Phone</h4>
+                        <p>
+                            <a href="tel:7026083191">
+                                <i class="fa fa-phone" style="color: white;"></i>(702) 608-3191</a>
+                        </p>
+                        <h4>Email</h4>
+                        <p>
+                            <a href="mailto:sixelevensolutions@gmail.com">
+                                <i class="fa fa-envelope" style="color: white; "></i>sixelevensolutions@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
