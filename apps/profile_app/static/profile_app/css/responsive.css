@@ -41,6 +41,11 @@
         margin-bottom: 50px;
         
     }
+    #about-back > p{
+        font-size: 12pt;
+        margin-top: -20px;
+
+    }
     .title h1 {
         font-size: 14px;
         margin: 0 auto;

@@ -1,10 +1,26 @@
 html {
     background-color: #1e1e20;
 }
+ .project-down{
+    margin-bottom: 40px;
 
+ }
+
+ 
+ .project-desc2 li{
+    text-align: left;
+    padding: 0;
+    color: rgb(66, 72, 75);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0;
+    font-size: 11pt;
+    font-weight: normal;
+    list-style: none;
+    margin-left:20px;
+ }
 #about {
-    padding: 0px 30px 0px 30px;
-    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px 30px 0px 30px;
+    background-color: rgba(83,98,103,0.3);
     /* width: 300px; */
 }
 
@@ -65,7 +81,8 @@ body {
 #profile-img {
     width: 500px;
     /* height: 50%; */
-    /* border: 10px double black */
+    border: 1px solid black;
+    box-shadow: 15px 15px 95px black;
 }
 
 /* .pic1{
@@ -80,9 +97,19 @@ body {
     /* margin-left: 500px; */
     width: 800px;
 }
+.skills-header{
+    text-align: center;
+}
 
 .skills-back {
     /* padding: 20px 0px 610px 0px; */
+}
+.skills-icons{
+    background-color: yellow;
+    width: 5px;
+    padding: 40px;
+    /* margin-left: 5px; */
+
 }
 
 .dark {
@@ -216,7 +243,6 @@ body {
     top: 0vh;
     color: #ffffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
     letter-spacing: .7em;
     font-size: 26pt;
     font-weight: normal;
@@ -228,25 +254,77 @@ body {
     padding-right: 50px; */
 }
 
-#about-back {
-    background-color: rgba(255, 255, 255, 0.5);
+.about-background {
+    background-color: rgba(83,98,103,0.8    );
     padding-bottom: 40px;
+    padding-top: 10px;
+}
+.about-back{
+    /* background-color: rgba(83,98,103,0.6); */
 }
 
-#about-back>p {
-    /* height: 700px; */
+.about-back h1 {
+    width: 100%;
+    text-align: left;
+    color: rgba(0,0,0,0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    font-size: 49pt;
+    font-weight: 900;
+    opacity: .8;
+    text-transform: capitalize;
+    /* margin-top: 75px; */
+    padding-right: 25px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    padding: 15px;
+    /* letter-spacing: 0.05em; */
+    margin-top: 75px;
+}
+.about-back h2 {
     width: 100%;
     text-align: left;
     color: #000000;
-    font-size: 19pt;
-    font-weight: 900;
+    font-size: 15pt;
+    font-weight: bolder;
     opacity: .8;
     text-transform: uppercase;
-    margin-top: 75px;
+    /* margin-top: 75px; */
     padding-right: 25px;
     padding-left: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block
+}
 
+.about-back h3 {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 22pt;
+    font-weight: bolder;
+    opacity: .8;
+    text-transform: uppercase;
+    /* margin-top: 75px; */
+    padding-right: 25px;
+    padding-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    /* margin-top: 30px; */
+}
+
+.about-back>p {
+    /* height: 700px; */
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 14pt;
+    font-weight: normal;
+    opacity: .8;
+    text-transform: uppercase;
+    /* margin-top: 75px; */
+    padding-right: 25px;
+    padding-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* background: black; */
     /* opacity: 0.4; */
     /* margin-bottom: -35px; */
@@ -258,13 +336,18 @@ body {
     position: relative;
     bottom: 0px;
     /* width: 100%; */
-    height: 100%;
+    /* height: 100%; */
     /* background: rgb(129, 4, 4); */
     background: linear-gradient(#1e1f1e, rgb(78, 107, 105));
     /* padding-top: 18px; */
     text-align: center;
+    color: white;
     /* margin-top: 70px; */
 }
+footer p{
+    margin-bottom: 0 !important;
+}
+
 
 /* timeline css */
 
@@ -563,9 +646,9 @@ input[type=tel] {
     text-transform: uppercase;
     /* margin-l claeft: 530px; */
     text-align: center;
-
     margin-bottom: 20px;
 }
+
 #skills {
     background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 50px;
@@ -786,6 +869,7 @@ table td {
     /* opacity: .8; */
     text-transform: uppercase;
     margin-top: -40px;
+    background-attachment: fixed;
 }
 
 #project-back h1 {
@@ -817,9 +901,8 @@ table td {
     height: 500px;
 }
 
-.purdue-back{
+.purdue-back {
     background-image: url('/static/vibrations_app/images/purdue-back.jpg');
-    
 }
 
 .contact-right {
@@ -897,6 +980,15 @@ html {
     border-left: white 1px solid;
 }
 
+.skills-list li{
+    color: white;
+    text-align: center;
+    list-style-type: none;
+}
+.skills-box{
+    padding: 25px !important;
+}
+
 @media (max-device-width: 1450px) {
     a {
         font-size: 0.4em;
@@ -907,14 +999,14 @@ html {
     .clist {
         border-left: unset;
     }
-    .contact-right p{
+    .contact-right p {
         font-size: 8pt;
     }
-    .contact-right h1{
+    .contact-right h1 {
         font-size: 22pt;
         text-align: center;
     }
-    .contact-right h2{
+    .contact-right h2 {
         font-size: 12pt;
     }
 }

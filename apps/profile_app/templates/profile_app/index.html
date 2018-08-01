@@ -1,18 +1,18 @@
-{% extends 'profile_app/base.html' %} {% block body %} {% load staticfiles %}
+x{% extends 'profile_app/base.html' %} {% block body %} {% load staticfiles %}
 
 <div class="container-fluid" id="   top" style="margin-top:70px;">
     <div class="row" id="top" style="font-family: Open Sans">
-        <div class=" col-sm-4 col-md-4 d-none d-sm-block " id="prof" style="width:100%; height: 50px; background: black; float:left; padding-left:30px; padding-right: 30px;">
-            <span class="marquee vcenter4" style="color:white; font-size: 9pt; text-align: center;">Technical Proficiencies - Python-Django | Ruby on Rails | Javascript | MEAN
-                <span>
+        <div class=" col-sm-4 col-md-4 d-none d-sm-block " id="prof" style="width:100%; height: 50px; background: rgba(83,98,103,0.6); float:left; padding-left:30px; padding-right: 30px;">
+            <!-- <span class="marquee vcenter4" style="color:white; font-size: 9pt; text-align: center;">Technical Proficiencies - Python-Django | Ruby on Rails | Javascript | MEAN
+                <span> -->
         </div>
 
 
 
-        <div class="col-sm-4 d-none d-sm-block" style="width:100%; height: 50px; background: black; float:right; padding-right:30px;">
-            <h1 style="text-align: center; color: slategray">Portfolio</h1>
+        <div class="col-sm-4 d-none d-sm-block" style="width:100%; height: 50px; background: rgba(83,98,103,0.6); float:right; padding-right:30px;">
+            <h1 style="text-align: center; color: white; font-weight: 500">Portfolio</h1>
         </div>
-        <div class="col-sm-4" style="background-color: black; text-align: right">
+        <div class="col-sm-4" style="background-color: rgba(83,98,103,0.6); text-align: right">
             <a href="http://www.github.com/brysonmckenzie" target="_blank">
                 <img style="width:50px;height:50px;" class="icons" src="{% static 'profile_app/images/logos/github.png' %}" alt="Github">
             </a>
@@ -26,32 +26,152 @@
 
             <div class="vcenter">
 
-                <h1 style="margin-bottom: ">Bryson McKenzie</h1>
+
                 <img class="center mx-auto" id="profile-img" src="{% static 'profile_app/images/Bryson/profile-pic.jpg' %}" alt="">
 
-                <h2>Software Developer</h2>
+
                 <br>
                 <p></p>
             </div>
 
         </div>
-        <div class="col-sm-6 center" id="about-back" style="position: relative; top: 25%;">
-            <!-- <p>about me</p> -->
-            <p>
-                Full Stack Developer that wish to improve and learn beyond new heights. I love learning new technology and being apart of
-                the technology age. In my spare time when I am not coding you can find me fishing, hitting the gym, watching
-                or exploring new things.
-            </p>
+        <div class="col-sm-6 center about-background" style="position: relative; top: 25%;">
+            <div class="row">
+                <div class="col-md-12 about-back">
+                    <!-- <p>about me</p> -->
+                    <h1 style="margin-bottom: ">Bryson McKenzie</h1>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 about-back">
+                    <h3>About</h3>
+
+                    <p>
+                        Full Stack Developer that wish to improve and learn beyond new heights every day and every year. I love learning new technology
+                        and found my dream career after retiring as a professional athlete. I like working with others and
+                        accomplishing strong goals.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="row dark" id="skills">
-        <div class="col-sm-12 skills-back ">
-            <div id="skills-header">
-                <h1>Technical Skills</h1>
+    <div class="row dark skills-back " id="skills">
+        <div class="col-sm-12 ">
+            <div class="row">
+                <div class="col-sm-12" id="skills-header">
+                    <h1>Technical Skills</h1>
+                </div>
             </div>
+            <div class="row">
+                <div class="col-sm-6 skills-box">
+                    <ul class="skills-list">
+                        <li>Ability to Analyze Complex Technical Information
+                        </li>
+                        <li>Excellent Problem Solver
+                        </li>
+                        <li>Experience Building Software Applications
+                        </li>
+                        <li>Experience With JavaScript
+                        </li>
+                        <li>Experience With Source Code and Version Repository
+                        </li>
+                        <li>Ruby, C#, VB or Python Experience
+                        </li>
+                        <li>Ruby on Rails Experience
+                        </li>
+                        <li>Strong Problem Solver
+                        </li>
+                        <li>Work Well Independently and Within a Team Setting
+                        </li>
+                        <li>Troubleshoot and Debug Issues
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 skills-box">
+                    <ul class="skills-list">
+                        <li>Consistently Seeking and Learning New Technology
+                        </li>
+                        <li>Detail Oriented
+                        </li>
+                        <li>Hands-On SQL Experience
+                        </li>
+                        <li>Node.js Experience
+                        </li>
+                        <li>Microsoft ASP.NET MVC, Web API Experience
+                        </li>
+                        <li>Manage Multiple Projects in a Deadline-Driven Environment
+                        </li>
+                        <li>Strong Oral and Written Communication
+                        </li>
+                        <li>Analyze, Design and Implement Database Structures
+                        </li>
+                        <li>Passion for Developing Engaging Consumer Experiences
+                        </li>
+                        <li>Thrive in Dynamic, Fast-Paced Environments
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-lg-2 skills-icons">
+                            <p>Python</p>
+                            <img src="{% static 'profile_app/images/niu.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-2 skills-icons">
+                            <p>Python</p>
+                            <img src="{% static 'profile_app/images/niu.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-2 skills-icons">
+                            <p>Python</p>
+                            <img src="{% static 'profile_app/images/niu.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-2 skills-icons">
+                            <p>Python</p>
+                            <img src="{% static 'profile_app/images/niu.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-2 skills-icons">
+                            <p>Python</p>
+                            <img src="{% static 'profile_app/images/niu.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-2 skills-icons">
+                            <p>Python</p>
+                            <img src="{% static 'profile_app/images/niu.png' %}" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 skills-icons">
+                            <p>Python</p>
+                            <img src="{% static 'profile_app/images/niu.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-2 skills-icons">
+                            <p>Python</p>
+                            <img src="{% static 'profile_app/images/niu.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-2 skills-icons">
+                            <p>Python</p>
+                            <img src="{% static 'profile_app/images/niu.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-2 skills-icons">
+                            <p>Python</p>
+                            <img src="{% static 'profile_app/images/niu.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-2 skills-icons">
+                            <p>Python</p>
+                            <img src="{% static 'profile_app/images/niu.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-2 skills-icons">
+                            <p>Python</p>
+                            <img src="{% static 'profile_app/images/niu.png' %}" alt="">
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
 
-            <div class="skill-box">
+
+        <!-- <div class="skill-box">
                 <p>Html/CSS</p>
                 <p>90%</p>
                 <div class="skill">
@@ -61,9 +181,9 @@
 
             <div class="skill-box">
                 <p>Javascript</p>
-                <p>75%</p>
+                <p>80%</p>
                 <div class="skill">
-                    <div class="skill-level" style="width:75%"> </div>
+                    <div class="skill-level" style="width80%"> </div>
                 </div>
             </div>
 
@@ -76,7 +196,7 @@
             </div>
 
             <div class="skill-box">
-                <p>Angular</p>
+                <p>React</p>
                 <p>70%</p>
                 <div class="skill">
                     <div class="skill-level" style="width:70%"> </div>
@@ -131,7 +251,7 @@
                     <div class="skill-level" style="width:50%"> </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="row" id="projects">
         <div class="col-sm-12" id="project-back">
@@ -139,45 +259,73 @@
                 <h1 style="margin-top:  30px;" class="col-sm-12">Projects</h1>
             </div>
             <div class="row">
-                <div class="col-sm-4 ">
+                <div class="col-md-4 project-down">
                     <div class="row">
                         <div class="col-sm-12 projects-title">
-                            <h2>AMRP</h2>
+                            <!-- <h2>AMRP</h2> -->
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12" style="background-color: rgba(0,0,0,0.7);">
+                        <div class="col-md-12" style="background-color: rgba(225,225,225,0.8)">
                             <a href="http://159.89.236.83">
                                 <img class="mx-auto p-pic" src="{% static 'profile_app/images/logos/logo.png' %}" alt="">
                             </a>
+                            <ul class="project-desc2">
+                                <li>Language: Python</li>
+                                <li>Framework: Django</li>
+                                <li>Front-End FW: ~</li>
+                                <li>Database: Postgres</li>
+                                <li>Description: AMRP is a non-profit web site for community area revitalization program for
+                                    redeveloping poverty stricken neighborhoods in Gary, IN.
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4 project-down">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 projects-title">
-                            <h2>Harlem Dreams </h2>
+                            <!-- <h2>Harlem Dreams </h2> -->
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12 col-md-12" style="background-color: rgba(0,0,0,0.7);">
+                        <div class="col-md-12" style="background-color: rgba(225,225,225,0.8);">
                             <a href="http://www.harlemdreams.net">
                                 <img class="mx-auto p-pic" src="{% static 'profile_app/images/logos/logo2.png' %}" alt="">
                             </a>
+                            <ul class="project-desc2">
+                                <li>Language: Python</li>
+                                <li>Framework: Django</li>
+                                <li>Front-End FW: ~</li>
+                                <li>Database: Postgres</li>
+                                <li>Description: Exhibition show basketball team that tours all over the world. Every show includes
+                                    incredible athleticism, entertainment and comedy.
+
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 ">
+                <div class="col-md-4 ">
                     <div class="row">
-                        <div class="col-sm-12 col-md-12 projects-title">
-                            <h2>Good Vibrations</h2>
+                        <div class=" col-md-12 projects-title">
+                            <!-- <h2>Good Vibrations</h2> -->
                         </div>
                     </div>
                     <div class="row ">
-                        <div class="col-sm-12 " style="background-color: rgba(0,0,0,0.7);">
+                        <div class="col-md-12 " style="background-color: rgba(225,225,225,0.8)">
                             <a href="http://206.81.7.218">
                                 <img class="mx-auto p-pic" src="{% static 'profile_app/images/logos/flower_logo.png' %}" alt="">
                             </a>
+                            <ul class="project-desc2">
+                                <li>Language: Python</li>
+                                <li>Framework: Django</li>
+                                <li>Front-End FW: ~</li>
+                                <li>Database: Postgres</li>
+                                <li>Description: Single page portfolio website for a recent college graduate, Amanie Foster.
+                                    This websites highlights Amanie's career field and credentials
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -195,7 +343,7 @@
                     <div class="title">
                         <h1 style> January 2018 (Present)</h1>
                         <h2>Web Developer (Freelance/ Contractor):
-                            <br> Six Eleven Solutions</h2>
+                            <br> Six Eleven Web Design</h2>
                     </div>
                     <div class="description">
                         <p>Six Eleven Web Design is a website designing and development company providing services to enterprises
@@ -229,7 +377,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-sm-12 column">
+                <!-- <div class="col-sm-12 column">
                     <div class="title">
                         <h1> June 2014</h1>
                         <h2> Personal Fitness Trainer:
@@ -239,7 +387,7 @@
                         <p>Helped motivate clients to reach there goals. Gave guidance and instructions to help them towards
                             a healthier lifestyle inside and outside the gym</p>
                     </div>
-                </div>
+                </div> -->
                 <!-- <div class="col-sm-12 column">
                     <div class="title">
                         <h1> August 2014 - August 2015 </h1>
