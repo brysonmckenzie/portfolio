@@ -6,6 +6,16 @@ html {
 
  }
 
+  .sexy-line {
+    /* margin: 25px 0; */
+    height: 3px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#5b5b5c), to(#ffffff), color-stop(50%, white));
+    width: 100%;
+    display: block;
+    /* float: right; */
+
+  }
  
  .project-desc2 li{
     text-align: left;
@@ -43,11 +53,6 @@ html {
     opacity: 0.8;
 }
 
-body {
-    /* margin: 0; */
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* height: 100%; */
-}
 
 .topnav {
     overflow: hidden;
@@ -124,7 +129,7 @@ body {
 body {
     /* min-width: 100%!important; */
     overflow-x: hidden;
-    background-image: url('/static/profile_app/images/background/back3.jpeg');
+    background-image: url('/static/profile_app/images/background/PHX.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -443,7 +448,7 @@ footer p{
     font-weight: normal;
     opacity: .6;
     text-transform: uppercase;
-    /* margin-top: 200px; */
+    margin-top: 50px;
 }
 
 #main p {
@@ -466,7 +471,7 @@ footer p{
     font-weight: normal;
     opacity: .8;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .school {

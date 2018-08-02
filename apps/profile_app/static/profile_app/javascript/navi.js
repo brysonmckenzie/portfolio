@@ -3,10 +3,12 @@ $(document).ready(function() {
         e.preventDefault();
         
         var position = $($(this).attr("href")).offset().top;
+
+        alert('hello')
     
         $("body, html").animate({
             scrollTop: position
-        } /* speed */ );
+        });
     });
 
 });
