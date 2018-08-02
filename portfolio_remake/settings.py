@@ -25,7 +25,7 @@ SECRET_KEY = 'gz1p8djjdy$_^5#_^5!a*29r%zhdio#%)ms8=n0+&v7+0$!!h)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['204.48.28.68','www.brysonmckenzie.com brysonmckenzie.com']
+ALLOWED_HOSTS = ['204.48.28.68','www.brysonmckenzie.com, brysonmckenzie.com']
 
 
 # Application definition
