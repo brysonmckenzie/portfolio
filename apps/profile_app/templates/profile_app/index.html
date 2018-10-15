@@ -14,10 +14,12 @@ x{% extends 'profile_app/base.html' %} {% block body %} {% load staticfiles %}
         </div>
         <div class="col-sm-4" style="background-color: rgba(83,98,103,0.6); text-align: right">
             <a href="http://www.github.com/brysonmckenzie" target="_blank">
-                <img style="width:50px;height:50px;" class="icons" src="{% static 'profile_app/images/logos/github.png' %}" alt="Github">
+                <img style="width:50px;height:50px;" class="icons" src="{% static 'profile_app/images/logos/github.png' %}"
+                    alt="Github">
             </a>
             <a href="http://www.linkedin.com/in/bryson-mckenzie" target="_blank">
-                <img style="width:50;height:50px;" class="icons" src="{% static 'profile_app/images/logos/linkedin.png' %}" alt="Linkedin">
+                <img style="width:50;height:50px;" class="icons" src="{% static 'profile_app/images/logos/linkedin.png' %}"
+                    alt="Linkedin">
             </a>
         </div>
     </div>
@@ -27,7 +29,8 @@ x{% extends 'profile_app/base.html' %} {% block body %} {% load staticfiles %}
             <div class="vcenter">
 
 
-                <img class="center mx-auto" id="profile-img" src="{% static 'profile_app/images/Bryson/profile-pic.jpg' %}" alt="">
+                <img class="center mx-auto" id="profile-img" src="{% static 'profile_app/images/Bryson/profile-pic.jpg' %}"
+                    alt="">
 
 
                 <br>
@@ -48,8 +51,11 @@ x{% extends 'profile_app/base.html' %} {% block body %} {% load staticfiles %}
                     <h3>About</h3>
 
                     <p>
-                        Full Stack Developer that wish to improve and learn beyond new heights every day and every year. I like working with others and
-                        accomplishing strong goals.
+                        Driven, goal oriented full-stack-developer with a diverse interest in front-end technologies. Culturally competent, socially
+                        perceptive candidate who has attained a broader perspective of people and the world; and knows the world is a better
+                        place when people have a deeper understanding and greater empathy toward all individuals and cultures. Comfortable
+                        collaborating on intellectual and culturally diverse teams to complete assignments while exceeding goals and elevating
+                        standards. Possesses a strong people first orientation with a commitment to professional ethics. 
                     </p>
                     <div class="sexy-line"></div>
                     <p style="text-align: center; margin-top:50px;  font-weight:bold">Phoenix, AZ</p>
@@ -65,7 +71,7 @@ x{% extends 'profile_app/base.html' %} {% block body %} {% load staticfiles %}
                     <h1>Technical Skills</h1>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                     <div class="col-sm-6 skills-box d-none d-sm-block d-md-none">
                         <ul class="skills-list"> 
                             <li>Ability to Analyze Complex Technical Information
@@ -109,56 +115,58 @@ x{% extends 'profile_app/base.html' %} {% block body %} {% load staticfiles %}
                             <li>Thrive in Dynamic, Fast-Paced Environments
                             </li>
                         </ul>
-                    </div>
-                    <div class="col-sm-6 skills-box d-none d-sm-block">
-                        <ul class="skills-list ">
-                            <li>Ability to Analyze Complex Technical Information
-                            </li>
-                            <li>Excellent Problem Solver
-                            </li>
-                            <li>Experience Building Software Applications
-                            </li>
-                            <li>Experience With JavaScript
-                            </li>
-                            <li>Experience With Source Code and Version Repository
-                            </li>
-                            <li>Ruby, C#, VB or Python Experience
-                            </li>
-                            <li>Ruby on Rails Experience
-                            </li>
-                            <li>Strong Problem Solver
-                            </li>
-                            <li>Work Well Independently and Within a Team Setting
-                            </li>
-                            <li>Troubleshoot and Debug Issues
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 skills-box d-none d-sm-block">
-                        <ul class="skills-list">
-                            <li>Consistently Seeking and Learning New Technology
-                            </li>
-                            <li>Detail Oriented
-                            </li>
-                            <li>Hands-On SQL Experience
-                            </li>
-                            <li>Node.js Experience
-                            </li>
-                            <li>Microsoft ASP.NET MVC, Web API Experience
-                            </li>
-                            <li>Manage Multiple Projects in a Deadline-Driven Environment
-                            </li>
-                            <li>Strong Oral and Written Communication
-                            </li>
-                            <li>Analyze, Design and Implement Database Structures
-                            </li>
-                            <li>Passion for Developing Engaging Consumer Experiences
-                            </li>
-                            <li>Thrive in Dynamic, Fast-Paced Environments
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- <div class="col-sm-6">
+                    </div> -->
+            <div class="row">
+                <div class="col-sm-6 skills-box">
+                    <ul class="skills-list ">
+                        <li>Ability to Analyze Complex Technical Information
+                        </li>
+                        <li>Excellent Problem Solver
+                        </li>
+                        <li>Experience Building Software Applications
+                        </li>
+                        <li>Experience With JavaScript
+                        </li>
+                        <li>Experience With Source Code and Version Repository
+                        </li>
+                        <li>Ruby, C#, VB or Python Experience
+                        </li>
+                        <li>Ruby on Rails Experience
+                        </li>
+                        <li>Strong Problem Solver
+                        </li>
+                        <li>Work Well Independently and Within a Team Setting
+                        </li>
+                        <li>Troubleshoot and Debug Issues
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 skills-box d-none d-sm-block">
+                    <ul class="skills-list">
+                        <li>Consistently Seeking and Learning New Technology
+                        </li>
+                        <li>Detail Oriented
+                        </li>
+                        <li>Hands-On SQL Experience
+                        </li>
+                        <li>Node.js Experience
+                        </li>
+                        <li>Microsoft ASP.NET MVC, Web API Experience
+                        </li>
+                        <li>Manage Multiple Projects in a Deadline-Driven Environment
+                        </li>
+                        <li>Strong Oral and Written Communication
+                        </li>
+                        <li>Analyze, Design and Implement Database Structures
+                        </li>
+                        <li>Passion for Developing Engaging Consumer Experiences
+                        </li>
+                        <li>Thrive in Dynamic, Fast-Paced Environments
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="col-sm-6">
                     <div class="row">
                         <div class="col-lg-2 skills-icons">
                             <p>Python</p>
@@ -212,11 +220,11 @@ x{% extends 'profile_app/base.html' %} {% block body %} {% load staticfiles %}
                         </div>
                     </div>
                 </div> -->
-                </div>
-            </div>
+        </div>
+    </div>
 
 
-            <!-- <div class="skill-box">
+    <!-- <div class="skill-box">
                 <p>Html/CSS</p>
                 <p>90%</p>
                 <div class="skill">
@@ -297,132 +305,136 @@ x{% extends 'profile_app/base.html' %} {% block body %} {% load staticfiles %}
                 </div>
             </div>
         </div> -->
+</div>
+<div class="row" id="projects">
+    <div class="col-sm-12" id="project-back">
+        <div class="row">
+            <h1 style="margin-top:  30px;" class="col-lg-12">Projects</h1>
         </div>
-        <div class="row" id="projects">
-            <div class="col-sm-12" id="project-back">
+        <div class="row">
+            <div class="col-lg-4 project-down">
                 <div class="row">
-                    <h1 style="margin-top:  30px;" class="col-sm-12">Projects</h1>
+                    <div class="col-lg-12 projects-title">
+                        <!-- <h2>AMRP</h2> -->
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 project-down">
-                        <div class="row">
-                            <div class="col-sm-12 projects-title">
-                                <!-- <h2>AMRP</h2> -->
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12" style="background-color: rgba(225,225,225,0.8)">
-                                <a href="http://159.89.236.83">
-                                    <img class="mx-auto p-pic" src="{% static 'profile_app/images/logos/logo.png' %}" alt="">
-                                </a>
-                                <ul class="project-desc2">
-                                    <li>Language: Python</li>
-                                    <li>Framework: Django</li>
-                                    <li>Front-End FW: ~</li>
-                                    <li>Database: Postgres</li>
-                                    <li>Description: AMRP is a non-profit web site for community area revitalization program
-                                        for redeveloping poverty stricken neighborhoods in Gary, IN.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="col-lg-12" style="background-color: rgba(225,225,225,0.8)">
+                        <a href="http://159.89.236.83">
+                            <img class="mx-auto p-pic" src="{% static 'profile_app/images/logos/logo.png' %}" alt="">
+                        </a>
+                        <ul class="project-desc2">
+                            <li>Language: Python</li>
+                            <li>Framework: Django</li>
+                            <li>Front-End FW: ~</li>
+                            <li>Database: Postgres</li>
+                            <li>Description: AMRP is a non-profit web site for community area revitalization program
+                                for redeveloping
+                                poverty stricken neighborhoods in Gary, IN.
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-md-4 project-down">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-12 projects-title">
-                                <!-- <h2>Harlem Dreams </h2> -->
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12" style="background-color: rgba(225,225,225,0.8);">
-                                <a href="http://www.harlemdreams.net">
-                                    <img class="mx-auto p-pic" src="{% static 'profile_app/images/logos/logo2.png' %}" alt="">
-                                </a>
-                                <ul class="project-desc2">
-                                    <li>Language: Python</li>
-                                    <li>Framework: Django</li>
-                                    <li>Front-End FW: ~</li>
-                                    <li>Database: Postgres</li>
-                                    <li>Description: Exhibition show basketball team that tours all over the world. Every show
-                                        includes incredible athleticism, entertainment and comedy.
+                </div>
+            </div>
+            <div class="col-lg-4 project-down">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 projects-title">
+                        <!-- <h2>Harlem Dreams </h2> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12" style="background-color: rgba(225,225,225,0.8);">
+                        <a href="http://www.harlemdreams.net">
+                            <img class="mx-auto p-pic" src="{% static 'profile_app/images/logos/logo2.png' %}" alt="">
+                        </a>
+                        <ul class="project-desc2">
+                            <li>Language: Python</li>
+                            <li>Framework: Django</li>
+                            <li>Front-End FW: ~</li>
+                            <li>Database: Postgres</li>
+                            <li>Description: Exhibition show basketball team that tours all over the world. Every show
+                                includes
+                                incredible athleticism, entertainment and comedy.
 
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-md-4 ">
-                        <div class="row">
-                            <div class=" col-md-12 projects-title">
-                                <!-- <h2>Good Vibrations</h2> -->
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-md-12 " style="background-color: rgba(225,225,225,0.8)">
-                                <a href="http://206.81.7.218">
-                                    <img class="mx-auto p-pic" src="{% static 'profile_app/images/logos/flower_logo.png' %}" alt="">
-                                </a>
-                                <ul class="project-desc2">
-                                    <li>Language: Python</li>
-                                    <li>Framework: Django</li>
-                                    <li>Front-End FW: ~</li>
-                                    <li>Database: Postgres</li>
-                                    <li>Description: Single page portfolio website for a recent college graduate, Amanie Foster.
-                                        This websites highlights Amanie's career field and credentials
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="row">
+                    <div class=" col-md-12 projects-title">
+                        <!-- <h2>Good Vibrations</h2> -->
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-12 " style="background-color: rgba(225,225,225,0.8)">
+                        <a href="http://206.81.7.218">
+                            <img class="mx-auto p-pic" src="{% static 'profile_app/images/logos/flower_logo.png' %}"
+                                alt="">
+                        </a>
+                        <ul class="project-desc2">
+                            <li>Language: Python</li>
+                            <li>Framework: Django</li>
+                            <li>Front-End FW: ~</li>
+                            <li>Database: Postgres</li>
+                            <li>Description: Single page portfolio website for a recent college graduate, Amanie
+                                Foster. This
+                                websites highlights Amanie's career field and credentials
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row" id="time">
-            <div id="career">
-                <div class="col-sm-12" id="main">
-                    <h1>Career Timeline</h1>
+    </div>
+</div>
+<div class="row" id="time">
+    <div id="career">
+        <div class="col-sm-12" id="main">
+            <h1>Career Timeline</h1>
+        </div>
+        <div class="row timeline">
+
+            <div class="col-sm-12 column">
+                <div class="title">
+                    <h1 style> January 2018 (Present)</h1>
+                    <h2>Web Developer (Freelance/ Contractor):
+                        <br> Six Eleven Web Design</h2>
                 </div>
-                <div class="row timeline">
-
-                    <div class="col-sm-12 column">
-                        <div class="title">
-                            <h1 style> January 2018 (Present)</h1>
-                            <h2>Web Developer (Freelance/ Contractor):
-                                <br> Six Eleven Web Design</h2>
-                        </div>
-                        <div class="description">
-                            <p>Six Eleven Web Design is a website designing and development company providing services to enterprises
-                                across the world and marketing needs.
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 column">
-                        <div class="title">
-                            <h1 style> November 2017</h1>
-                            <h2>Back-End Developer:
-                                <br> Datamine Internet Marketing Solutions (Contractor)</h2>
-                        </div>
-                        <div class="description">
-                            <p>Maintain and build websites in ASP.NET. Learned .NET and applied it on multiple projects and
-                                legacy work. Built and maintained the front-end of companies ASP.NET webpages
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 column">
-                        <div class="title">
-                            <h1> December 2015</h1>
-                            <h2> Welder/Fabricator:
-                                <br> Kentucky Trailer/Advance Mobility </h2>
-                        </div>
-                        <div class="description">
-                            <p>Became a certified welder. Helped fabricate and build Medical Mobility Units(mobile medical trailers)
-                                during this time. Learned valuable skills about metal fabrication, teamwork and the Industrial
-                                Industry.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- <div class="col-sm-12 column">
+                <div class="description">
+                    <p>Builds high quality full-stack web applications for multiple clients.
+                    <p>Develops front-end interfaces using HTML5, CSS3, bootstrap 3.0, AJAX, JSON and JQuery, React, Angular, Redux or Javascript.</p>
+                    <p>Builds out ORM Models and Databases for clients.
+                    <p>Builds, manages, and maintains websites for clients.</p>
+                </div>
+            </div>
+            <div class="col-sm-12 column">
+                <div class="title">
+                    <h1 style> November 2017</h1>
+                    <h2>Full-Stack Developer:
+                        <br> Datamine Internet Marketing Solutions (Contractor)</h2>
+                </div>
+                <div class="description">
+                    <p>Maintain and build websites in ASP.NET. Learned .NET and applied it on multiple projects and
+                        legacy work.
+                        Built and maintained the front-end of companies ASP.NET webpages
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="col-sm-12 column">
+                <div class="title">
+                    <h1> December 2015</h1>
+                    <h2> Welder/Fabricator:
+                        <br> Kentucky Trailer/Advance Mobility </h2>
+                </div>
+                <div class="description">
+                    <p>Certified welder. Helped fabricate and build Medical Mobility Units(mobile medical trailers)
+                        during this time. Learned valuable skills about metal fabrication, teamwork and the Industrial Industry.
+                    </p>
+                </div>
+            </div> -->
+            <!-- <div class="col-sm-12 column">
                     <div class="title">
                         <h1> June 2014</h1>
                         <h2> Personal Fitness Trainer:
@@ -433,7 +445,7 @@ x{% extends 'profile_app/base.html' %} {% block body %} {% load staticfiles %}
                             a healthier lifestyle inside and outside the gym</p>
                     </div>
                 </div> -->
-                    <!-- <div class="col-sm-12 column">
+            <!-- <div class="col-sm-12 column">
                     <div class="title">
                         <h1> August 2014 - August 2015 </h1>
                         <h2> Long Term Substitute Teacher:
@@ -444,138 +456,145 @@ x{% extends 'profile_app/base.html' %} {% block body %} {% load staticfiles %}
                             students in order to make them better individuals all around. </p>
                     </div>
                 </div> -->
-                    <div class="col-sm-12 column">
-                        <div class="title">
-                            <h1> June 2006</h1>
-                            <h2> Professional Athlete
-                                <br> NBA G League/ European Leagues(FIBA) </h2>
-                        </div>
-                        <div class="description">
-                            <p> In 2006, I graduated from Northern Illinois University where my general focus was AUTO CAD and
-                                other computer technologies. After my college of 5 years with Northern Illinois University
-                                Basketball Club. I excelled to greater height by venturing into the world to play 8 years
-                                as a professional athlete in the US and foreign leagues. </p>
-                        </div>
-                    </div>
+            <div class="col-sm-12 column">
+                <div class="title">
+                    <h1> June 2006</h1>
+                    <h2> Professional Athlete
+                        <br> NBAGL/ World-wide FIBA Leagues </h2>
                 </div>
-            </div>
-        </div>
-        <div class="row dark" style="padding: 50px;">
-            <div class="col-sm-12">
-
-
-                <div class="row">
-                    <div class="col-sm-12" id="education">
-                        <h1>Education</h1>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-12 school">
-                        Coding Dojo -
-                        <span class="city">Chicago, IL</span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <img class="school-photo" src="{% static 'profile_app/images/cda.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 study">
-                        Software Development
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 desc">
-                        <ul style="list-style: none; ">
-                            <li>MEAN (Javascript) - Python/Django - Ruby on Rails -HTML/CSS (Full Stack Development)</li>
-                            <li>
-                                Attended a fourteen week accelerated learning software development boot-camp, where I accumulated over 1,000 hours of development
-                                experience in three full-stacks. Became proficient in Python/Django, Ruby on Rails and Javascript
-                                along with MEAN. Acquired many skills to work efficiently and efficiently from with the front-end
-                                to back-end and data storage. Solved and created many algorithms in daily 1hr sessions. Worked
-                                in teams to resolve and develop applications to high standards.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 school">
-                        Northern Illinois University -
-                        <span class="city">DeKalb, IL</span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <img class="school-photo" src="{% static 'profile_app/images/niu.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 study">
-                        B.A. - Degree: General Studies
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 desc">
-                        <ul>
-                            <p>Focused was in Industrial Engineering Technology (AutoCad). Attained a B.A degree in General
-                                Studies.
-                            </p>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="row contact-background">
-            <div class="col-sm-12">
-                <div class="row">
-                    <h1 id="scontct">Contact</h1>
-                </div>
-                <div class="row">
-                    <div class=" col-sm-6 form-group" id="contact">
-                        <form class="center" action="/process" method="post">
-                            <!-- <h1 id="scontct">Contact Form</h1> -->
-                            <p class="thanks" style="font-size: 20pt; text-align: center; margin-bottom: 70px;">Please feel free to leave a message! Thank You for coming to my page.</p>
-                            {% csrf_token %}
-                            <input class="form-control" type="text" placeholder="Name" name="html_name" required>
-                            <br>
-                            <input class="form-control" type="text" placeholder="Email" name="html_email" required>
-                            <br>
-                            <input class="form-control" type="tel" placeholder="Phone Number" name="html_phone" required>
-                            <br>
-                            <textarea class="form-control" id="message" name="html_message" placeholder="Message" required></textarea>
-
-                            <a href="top">
-                                <input type="submit" id="btn-config" onclick="alertfunc">
-                            </a>
-
-                        </form>
-                    </div>
-                    <div class="col-sm-6 contact-right">
-                        <div class="clist">
-                            <!-- <h1>Contact Information</h1> -->
-                            <h4>Phone</h4>
-                            <p>
-                                <a href="tel:2182620157">
-                                    <i class="fa fa-phone" style="color: white;"></i>(219) 262-0157</a>
-                            </p>
-                            <h4>Email</h4>
-                            <p>
-                                <a href="mailto:sixelevensolutions@gmail.com">
-                                    <i class="fa fa-envelope" style="color: white; "></i>sixelevensolutions@gmail.com</a>
-                            </p>
-                        </div>
-                    </div>
+                <div class="description">
+                    <p> In 2006, I graduated from Northern Illinois University where my general focus was AUTO CAD and
+                        other
+                        computer technologies. After my college of 5 years with Northern Illinois University Basketball
+                        Club.
+                        I excelled to greater heights by venturing into the world to play 8 years as a professional
+                        athlete
+                        in the US and foreign leagues. </p>
                 </div>
             </div>
         </div>
     </div>
+</div>
+<div class="row dark" style="padding: 50px;">
+    <div class="col-sm-12">
 
 
-    <script>
-        function alertfunc() {
-            alert('Thank You');
-        }
-    </script> {% endblock %}
+        <div class="row">
+            <div class="col-sm-12" id="education">
+                <h1>Education</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 school">
+                Coding Dojo -
+                <span class="city">Chicago, IL</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <img class="school-photo" src="{% static 'profile_app/images/cda.png' %}" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 study">
+                Software Development
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 desc">
+                <ul style="list-style: none; ">
+                    <li>MEAN (Javascript) - Python/Django - Ruby on Rails -HTML/CSS (Full Stack Development)</li>
+                    <li>
+                        Attended a fourteen week accelerated learning software development boot-camp, where I
+                        accumulated over 1,000 hours of development
+                        experience in three full-stacks. Became proficient in Python/Django, Ruby on Rails and
+                        Javascript
+                        along with MEAN. Acquired many skills to work efficiently and efficiently from with the
+                        front-end
+                        to back-end and data storage. Solved and created many algorithms in daily 1hr sessions. Worked
+                        in
+                        teams to resolve and develop applications to high standards.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 school">
+                Northern Illinois University -
+                <span class="city">DeKalb, IL</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <img class="school-photo" src="{% static 'profile_app/images/niu.png' %}" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 study">
+                B.A. - Degree: General Studies
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 desc">
+                <ul>
+                    <p>Majored in Bachelor’s of Arts Degree in General Studies</p>
+                    <p> Minored in Bachelor’s of Science Degree in Industrial Engineering Technology
+                        Relative Coursework and Focuses: Solidworks, AutoCAD, and C++</p>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="row contact-background">
+    <div class="col-sm-12">
+        <div class="row">
+            <h1 id="scontct">Contact</h1>
+        </div>
+        <div class="row">
+            <div class=" col-sm-6 form-group" id="contact">
+                <form class="center" action="/process" method="post">
+                    <!-- <h1 id="scontct">Contact Form</h1> -->
+                    <!-- <p class="thanks" style="font-size: 20pt; text-align: center; margin-bottom: 70px;">Please feel free to leave a message! Thank You for coming to my page.</p> -->
+                    {% csrf_token %}
+                    <input class="form-control" type="text" placeholder="Name" name="html_name" required>
+                    <br>
+                    <input class="form-control" type="text" placeholder="Email" name="html_email" required>
+                    <br>
+                    <input class="form-control" type="tel" placeholder="Phone Number" name="html_phone" required>
+                    <br>
+                    <textarea class="form-control" id="message" name="html_message" placeholder="Message" required></textarea>
+
+                    <a href="top">
+                        <input type="submit" id="btn-config" onclick="alertfunc">
+                    </a>
+
+                </form>
+            </div>
+            <div class="col-sm-6 contact-right">
+                <div class="clist">
+                    <!-- <h1>Contact Information</h1> -->
+                    <h4>Phone</h4>
+                    <p>
+                        <a href="tel:2182620157">
+                            <i class="fa fa-phone" style="color: white;"></i>(219) 262-0157</a>
+                    </p>
+                    <h4>Email</h4>
+                    <p>
+                        <a href="mailto:sixelevensolutions@gmail.com">
+                            <i class="fa fa-envelope" style="color: white; "></i>sixelevensolutions@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<script>
+    function alertfunc() {
+        alert('Thank You');
+    }
+</script> {% endblock %}
